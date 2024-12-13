@@ -7,7 +7,7 @@ export default component$(() => {
 
   return (
     <>
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('/images/courses-bg.jpg'); height: 450px;">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('/images/gallery-bg.jpg'); height: 450px;">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center" style="height: 450px;">
