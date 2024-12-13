@@ -1,0 +1,40 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --qwik-dark-blue: #006ce9;
+  --qwik-light-blue: #18b6f6;
+  --qwik-light-purple: #ac7ff4;
+  --qwik-dark-purple: #713fc2;
+  --qwik-dirty-black: #1d2033;
+  --qwik-dark-background: #151934;
+  --qwik-dark-text: #ffffff;
+} */
+
+h1 {
+    font-size: 48px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+}
+p, ol.instructors {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    line-height: 1.875;
+    font-weight: 400;
+    color: #636363;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.heading-section .subheading {
+    font-family: "Pinyon Script", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    display: block;
+    margin-bottom: -10px;
+    color: #d19a4a;
+    text-transform: capitalize;
+}
