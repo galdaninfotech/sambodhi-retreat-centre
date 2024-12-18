@@ -1907,7 +1907,7 @@ textarea.form-control {
 
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  background: #fff;
+  background: antiquewhite;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -3281,9 +3281,10 @@ textarea.form-control {
 }
 
 .heading-section h2, .heading-section .h2 {
-  font-size: 26px;
+  font-size: 34px;
   font-weight: 600;
   font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 4px;
 }
   .heading-section h2 span, .heading-section .h2 span {
     color: #d19a4a; 

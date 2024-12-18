@@ -147,11 +147,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Contact Us',
+  title: 'Contact Us - Sambodhi Retreat Centre',
   meta: [
     {
       name: 'description',
-      content: 'Contact Us',
+      content: 'Contact Us - Sambodhi Retreat Centre',
     },
   ],
 };

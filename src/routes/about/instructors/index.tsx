@@ -12,7 +12,11 @@ export default component$(() => {
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center" style="height: 450px;">
                 <div class="col-md-9 mb-5 text-center">
-                    <p class="breadcrumbs"><span class="me-2"><a href="index.html">Home <i class="fa ion-ios-arrow-round-forward"></i></a></span> <span>Instructors <i class="fa ion-ios-arrow-round-forward"></i></span></p>
+                    <p class="breadcrumbs">
+                        <span class="me-2"><a href="index.html">Home <i class="fa ion-ios-arrow-round-forward"></i></a></span> 
+                        <span class="me-2"><a href="index.html">About <i class="fa ion-ios-arrow-round-forward"></i></a></span>
+                        <span>Instructors <i class="fa ion-ios-arrow-round-forward"></i></span>
+                    </p>
                     <h1 class="mb-0 bread">Instructors</h1>
                 </div>
             </div>
@@ -52,16 +56,17 @@ export default component$(() => {
             </div>
         </div>
     </section>
+    <br /> <br /> <br /> <br />
   </>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'Instructors',
+  title: 'Instructors - Sambodhi Retreat Centre',
   meta: [
     {
       name: 'description',
-      content: 'Instructors',
+      content: 'Instructors - Sambodhi Retreat Centre',
     },
   ],
 };

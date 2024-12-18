@@ -79,7 +79,7 @@ export default component$(() => {
                 <div class="row">
                     <div class="col-lg-6 col-xl-7 order-lg-last py-5 heading-section" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         <div class="py-md-5 px-lg-5">
-                            <span class="subheading">Information About Us</span>
+                            <span class="subheading">About Us</span>
                             <h2 class="mb-4">Sambodhi Retreat Centre - <span>Meditation & Yoga</span> Workout Training Center</h2>
                             <p>The incredibly beautiful Sambodhi Retreat Centre, an inspiring oasis of tranquil contemplation, is situated in a secluded corner of the transformative Mahabodhi International Meditation Centre campus.
                             </p>
@@ -406,11 +406,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome MIMC',
+  title: 'Welcome Sambodhi Retreat Centre',
   meta: [
     {
       name: 'description',
-      content: 'MIMC site description',
+      content: 'Sambodhi Retreat Centre site description',
     },
   ],
 };

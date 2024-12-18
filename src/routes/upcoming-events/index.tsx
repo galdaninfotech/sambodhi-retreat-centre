@@ -41,11 +41,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Upcoming Events',
+  title: 'Upcoming Events - Sambodhi Retreat Centre',
   meta: [
     {
       name: 'description',
-      content: 'Upcoming Events',
+      content: 'Upcoming Events - Sambodhi Retreat Centre',
     },
   ],
 };

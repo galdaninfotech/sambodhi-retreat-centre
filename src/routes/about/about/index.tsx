@@ -11,7 +11,11 @@ export default component$(() => {
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center" style="height: 450px;">
                 <div class="col-md-9 mb-5 text-center">
-                    <p class="breadcrumbs"><span class="me-2"><a href="index.html">Home <i class="fa ion-ios-arrow-round-forward"></i></a></span> <span>About us <i class="fa ion-ios-arrow-round-forward"></i></span></p>
+                    <p class="breadcrumbs">
+                        <span class="me-2"><a href="index.html">Home <i class="fa ion-ios-arrow-round-forward"></i></a></span> 
+                        <span class="me-2"><a href="index.html">About <i class="fa ion-ios-arrow-round-forward"></i></a></span>
+                        <span>About us <i class="fa ion-ios-arrow-round-forward"></i></span>
+                    </p>
                     <h1 class="mb-0 bread">About Us</h1>
                 </div>
             </div>
@@ -23,7 +27,7 @@ export default component$(() => {
             <div class="row">
                 <div class="col-lg-6 col-xl-7 order-lg-first py-5 heading-section aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <div class="py-md-5 px-lg-5">
-                        <span class="subheading">Information About Us</span>
+                        <span class="subheading">About Us</span>
                         <h2 class="mb-4">Mahabodhi International Meditation Centre</h2>
 
                         <p>The Mahabodhi International Meditation Centre (MIMC) had humble origins in a rented room in Leh city in 1986. Venerable Bhikkhu Sanghasena recognized the pressing need for humanitarian and spiritual services in Ladakh. Starting in a small room, the center later shifted to the expansive 200-acre Devachan campus in Choglamsar in 1991. Overcoming challenges like lack of water and proper roads in the harsh desert environment, Venerable Sanghasena and his team demonstrated tenacity, compassion, and resourcefulness as the Mahabodhi Devachan campus blossomed.</p>
@@ -54,7 +58,7 @@ export default component$(() => {
 
                 <div class="col-lg-6 col-xl-7 py-5 heading-section aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <div class="py-md-5 px-lg-5">
-                        <span class="subheading">Information About Us</span>
+                        <span class="subheading">About Us</span>
                         <h2 class="mb-4">Sambodhi Retreat Centre</h2>
 
                         <p>The incredibly beautiful Sambodhi Retreat Centre, an inspiring oasis of tranquil contemplation, is situated in a secluded corner of the transformative Mahabodhi International Meditation Centre campus.</p>
@@ -68,16 +72,17 @@ export default component$(() => {
             </div>
         </div>
     </section>
+    <br /> <br /> <br /> <br />
   </>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'About',
+  title: 'About - Sambodhi Retreat Centre',
   meta: [
     {
       name: 'description',
-      content: 'About',
+      content: 'About - Sambodhi Retreat Centre',
     },
   ],
 };

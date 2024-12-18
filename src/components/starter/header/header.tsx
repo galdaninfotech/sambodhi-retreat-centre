@@ -37,11 +37,29 @@ export default component$(() => {
                 <div class="collapse navbar-collapse border-top-custom" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-5">
                         <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/instructors">Instructors</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/testimonials">Testimonials</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/upcoming-events">Upcoming Events</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/about/about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/about/mahabodhi-sambodhi-retreat-centre">Mahabodhi Sambodhi Retreat Centre</a>
+                            <a class="dropdown-item" href="/about/facilities">Facilities</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/about/guidelines">Guideline</a>
+                            <a class="dropdown-item" href="/about/instructors">Instructors</a>
+                            <a class="dropdown-item" href="/about/history-of-mimc">History of MIMC</a>
+                            <a class="dropdown-item" href="/about/testimonials">Testimonials</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/about-the-founder/about-the-founder" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About The Founder</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/about-the-founder/background">Background</a>
+                            <a class="dropdown-item" href="/about-the-founder/vision">Vision</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/about-the-founder/story">Story</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="/courses-and-retreats">Courses and Retreats</a></li>
                         <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
                     </ul>
